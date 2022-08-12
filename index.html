@@ -8,8 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="index.css">
   <title>Sino 3D</title>
 </head>
 
@@ -17,17 +17,38 @@
   <main>
     <img src="./assets/logo.svg" alt="logo Sino3D">
     <div class="box-general-configs">
-      <div class="velocity">
+      <div>
         <p>Velocidade</p>
         <div class="progress-bar">
           <div></div>
         </div>
       </div>
-      <div class="qtd-photos">
+      <div>
         <p>Quantidade de fotos</p>
+        <div class="progress-bar">
+          <div></div>
+        </div>
       </div>
-      <div class="direction">
+  
+      <div>
         <p>Direção</p>
+        <div class="container-checkbox-group">
+          <div class="container">
+            <div class="round">
+              <input type="checkbox" checked id="hour" />
+              <label for="hour"></label>
+            </div>
+            <span>Horário</span>
+          </div>
+  
+          <div class="container">
+            <div class="round">
+              <input type="checkbox" checked id="anti-hour" />
+              <label for="anti-hour"></label>
+            </div>
+            <span>Anti-Horário</span>
+          </div>
+        </div>
       </div>
     </div>
 
