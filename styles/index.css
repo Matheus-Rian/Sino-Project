@@ -1,0 +1,71 @@
+main {
+  margin-top: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-configs {
+  margin-top: 34px;
+
+  padding: 20px;
+  width: 354px;
+  border-radius: 5px;
+  background-color: var(--white);
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+}
+
+.progress-bar {
+  margin: 12px 0;
+  height: 3px;
+  width: 100%;
+  background: var(--gray-400);
+}
+
+.progress-bar div {
+  height: 3px;
+  width: 25%;
+  background: var(--blue-500);
+}
+
+.buttons-directions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons-directions button {
+  width: 35px;
+  height: 35px;
+  background: var(--blue-500);
+  border-radius: 5px;
+
+  transition: filter 0.2s ease-in;
+}
+
+.buttons-directions button:hover {
+  filter: brightness(0.9);
+}
+
+.buttons-directions button img {
+  margin-top: 8px;
+}
+
+.button-initial {
+  margin-top: 50px;
+  height: 44px;
+  width: 180px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 0.875rem;
+  letter-spacing: 0.8px;
+  background: var(--blue-500);
+  color: var(--white);
+
+  transition: filter 0.2s ease-in;
+}
+
+.button-initial:hover {
+  filter: brightness(0.9);
+}

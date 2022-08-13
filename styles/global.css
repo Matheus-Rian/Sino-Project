@@ -6,8 +6,9 @@
 
 :root {
   --white: #fff;
-
   --gray-900: #606060;
+  --gray-400: #D1D1D1;
+  --blue-500: #0071E3;
 }
 
 @media (max-width: 1080px) {
@@ -33,4 +34,5 @@ body, button {
 
 button {
   cursor: pointer;
+  border: none;
 }
