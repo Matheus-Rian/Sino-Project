@@ -8,15 +8,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="global.css">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./styles/checkbox.css">
+  <link rel="stylesheet" href="./styles/index.css">
   <title>Sino 3D</title>
 </head>
 
 <body>
   <main>
     <img src="./assets/logo.svg" alt="logo Sino3D">
-    <div class="box-general-configs">
+    <div class="box-configs">
       <div>
         <p>Velocidade</p>
         <div class="progress-bar">
@@ -52,16 +53,23 @@
       </div>
     </div>
 
-    <div class="box-platform-angle">
+    <div class="box-configs">
       <p>Ângulo da plataforma</p>
+      <div class="progress-bar">
+        <div></div>
+      </div>
       <div class="buttons-directions">
-        <button>◀️</button>
-        <button>▶️</button>
+        <button>
+          <img src="./assets/arrow-left.svg" alt="arrow-left">
+        </button>
+        <button>
+          <img src="./assets/arrow-right.svg" alt="arrow-right">
+        </button>
       </div>
     </div>
 
     <button class="button-initial">
-      Iniciar
+      INICIAR
     </button>
   </main>
 </body>
